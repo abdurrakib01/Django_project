@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My webpage</title>
+</head>
+<body>
+<h1>My first simple webpage</h1>
+<div>
+    <p>Name: {{ name }}</p>
+    <p style="color:green;">Country: {{ country }}</p>
+    <p>
+        {% for i in list %}
+        <h{{ i }}>Using first for loop</h{{ i }}>
+        {% endfor %}
+    </p>
+</div>
+</body>
+</html>
